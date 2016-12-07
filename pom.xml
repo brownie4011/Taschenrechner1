@@ -3,4 +3,15 @@
   <groupId>org.Braun.ITK.Taschenrechner</groupId>
   <artifactId>Taschenrechner</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+       <reporting>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-javadoc-plugin</artifactId>
+        <version>2.10.4</version>
+        <configuration>
+        </configuration>
+      </plugin>
+    </plugins>
+  </reporting>
 </project>
